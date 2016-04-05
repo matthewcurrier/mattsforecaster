@@ -1,0 +1,19 @@
+Package: mattsforecaster
+Type: Package
+Title: This Package Does Forecasting For Matt
+Version: 0.1.0
+Author: Matthew Currier
+Maintainer: Who to complain to <currier.matthew@gmail.com>
+Description: This package uses a variety of forecasting options in R to make
+    forecasting easier for Matt.
+License: GPL-2
+LazyData: TRUE
+Imports:
+    broom,
+    dplyr,
+    forecast
+RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
